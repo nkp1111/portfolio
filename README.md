@@ -33,6 +33,7 @@
   - install react
   - add dependencies @sanity/client, @sanity/image-url, framer-motion, node-sass, react-icons
   - add containers folder for header, about, work, skill, testimonial, footer
+  - add navbar with toggle navbar links
   
 ## Built with
 
