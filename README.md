@@ -23,6 +23,8 @@
 
 ## Steps completed
 
+- backend_sanity: create schemas for abouts, brands, contact, experiences, skills, testimonials, workExperience, works
+
 ## Built with
 
 - [Sanity](https://www.sanity.io/)
