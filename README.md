@@ -31,6 +31,7 @@
 - frontend_react
 
   - install react
+  - add dependencies @sanity/client, @sanity/image-url, framer-motion, node-sass, react-icons
 
 ## Built with
 
