@@ -23,7 +23,14 @@
 
 ## Steps completed
 
-- backend_sanity: create schemas for abouts, brands, contact, experiences, skills, testimonials, workExperience, works
+- backend_sanity
+
+  - install sanity
+  - create sanity schemas for abouts, brands, contact, experiences, skills, testimonials, workExperience, works
+
+- frontend_react
+
+  - install react
 
 ## Built with
 
