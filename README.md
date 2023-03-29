@@ -35,6 +35,10 @@
   - add containers folder for header, about, work, skill, testimonial, footer
   - add navbar with toggle navbar links
   - add header component
+  - add about component
+  - add wrapper file for high order component
+  - add social media and navigation dot component inside wrapper file
+  - wrap header and about container with wrapper AppWrapper
   
 ## Built with
 
