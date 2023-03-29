@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Tooltip as ReactTooltip } from 'react-tooltip'
 
-import { AppWrap } from '../../wrapper'
+import { AppWrap, MotionWrap } from '../../wrapper'
 import { client, urlFor } from '../../client'
 import "./Skills.scss"
 import 'react-tooltip/dist/react-tooltip.css'
@@ -60,18 +60,16 @@ const Skills = () => {
               </div>
               <motion.div className='app__skills-exp-works'>
                 {exp.works.map(work => (
-                  <>
-                    <motion.div
-                      whileInView={{ opacity: [0, 1] }}
-                      transition={{ duration: 0.5 }}
-                      className="app__skills-exp-work"
-                      data-tooltip-id={work.name}
-                      data-for={work.name}
-                      key={work.name}
-                    >
-                      <h4 className='bold-text'>{work.name}</h4>
-                      <p className="p-text">{work.company}</p>
-                    </motion.div>
+                  <motion.div
+                    whileInView={{ opacity: [0, 1] }}
+                    transition={{ duration: 0.5 }}
+                    className="app__skills-exp-work"
+                    data-tooltip-id={work.name}
+                    data-for={work.name}
+                    key={work.name}
+                  >
+                    <h4 className='bold-text'>{work.name}</h4>
+                    <p className="p-text">{work.company}</p>
                     <ReactTooltip
                       id={work.name}
                       effect="solid"
@@ -80,7 +78,7 @@ const Skills = () => {
                     >
                       {work.desc}
                     </ReactTooltip>
-                  </>
+                  </motion.div>
                 ))}
               </motion.div>
             </motion.div>
@@ -91,4 +89,8 @@ const Skills = () => {
   )
 }
 
-export default AppWrap(Skills, "skills")
+export default AppWrap(
+  MotionWrap(Skills, "app__skills"),
+  "skills",
+  "app__whitebg"
+)
