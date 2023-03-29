@@ -39,6 +39,8 @@
   - add wrapper file for high order component
   - add social media and navigation dot component inside wrapper file
   - wrap header and about container with wrapper AppWrapper
+  - add work component
+  - add skill component
   
 ## Built with
 
