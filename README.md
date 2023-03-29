@@ -41,6 +41,8 @@
   - wrap header and about container with wrapper AppWrapper
   - add work component
   - add skill component
+  - add motionWrap component for animation
+  - cover main sections with motionWrap
   
 ## Built with
 
@@ -48,6 +50,13 @@
 - [React](https://react.dev/)
 
 ## Resources
+
+- react-icons -for icons
+- framer-motion -for animation
+- @sanity/client -for connecting to sanity backend
+- @sanity/image-url -for sanity image build
+- react-tooltip -for tooltip
+- node-sass
 
 ## Acknowledgement
 
