@@ -50,7 +50,8 @@ const Skills = () => {
           ))}
         </motion.div>
 
-        <motion.div className='app__skills-exp'>
+        <motion.div className='app__skills-exp'
+          style={experiences?.length === 0 ? { flex: 0 } : { flex: 1 }}>
           {experiences?.map(exp => (
             <motion.div
               className='app__skills-exp-item'
