@@ -43,6 +43,8 @@
   - add skill component
   - add motionWrap component for animation
   - cover main sections with motionWrap
+  - add testimonial component
+  - add footer component
   
 ## Built with
 
