@@ -14,12 +14,12 @@
 
 ## Links
 
-- [Solution]()
-- [Live app]()
+- [Solution](https://github.com/nkp1111/portfolio)
+- [Live app](https://nkp1111-portfolio.netlify.app/)
 
 ## Image
 
-![image]()
+![image](/frontend_react/src/assets/screencapture-localhost-3000-2023-03-30-11_07_45.png)
 
 ## Steps completed
 
