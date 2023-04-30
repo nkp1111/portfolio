@@ -15,7 +15,7 @@
 ## Links
 
 - [Solution](https://github.com/nkp1111/portfolio)
-- [Live app](https://nkp1111-portfolio.netlify.app/)
+- [Live app](https://portfolio-teal-six-33.vercel.app/)
 
 ## Image
 
