@@ -5,6 +5,8 @@ import { motion } from 'framer-motion'
 import { images } from '../../constants'
 import "./Navbar.scss"
 
+const navigationLinks = ["home", "about", "work", "skills", "contact"]
+
 const Navbar = () => {
 
   const [toggle, setToggle] = useState(false);
@@ -14,7 +16,7 @@ const Navbar = () => {
         <img src={images.logo} alt="logo" />
       </div>
       <ul className='app__navbar-links'>
-        {["home", "about", "contact", "work", "skills"].map(item => (
+        {navigationLinks.map(item => (
           <li key={item}
             className="app__flex p-text">
             <div></div>
@@ -32,7 +34,7 @@ const Navbar = () => {
           >
             <HiX onClick={() => setToggle(false)} />
             <ul className="app__navbar-links">
-              {["home", "about", "contact", "work", "skills"].map(item => (
+              {navigationLinks.map(item => (
                 <li key={item}>
                   <a href={`#${item}`}
                     onClick={() => setToggle(false)}
